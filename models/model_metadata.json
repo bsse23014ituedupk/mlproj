@@ -1,0 +1,27 @@
+{
+  "best_model": "RandomForest",
+  "test_roc_auc": 0.6617089843749999,
+  "test_f1_macro": 0.6065061290523304,
+  "best_params": {
+    "model__max_depth": 15,
+    "model__max_features": "sqrt",
+    "model__min_samples_leaf": 2,
+    "model__min_samples_split": 5,
+    "model__n_estimators": 300
+  },
+  "feature_names": [
+    "ph",
+    "Hardness",
+    "Solids",
+    "Chloramines",
+    "Sulfate",
+    "Conductivity",
+    "Organic_carbon",
+    "Trihalomethanes",
+    "Turbidity",
+    "ph_hardness_ratio",
+    "tthm_chloramine_interaction",
+    "organic_solids_ratio"
+  ],
+  "selection_rationale": "Random Forest is used as the primary model. It is an ensemble of Decision Trees that reduces variance via bagging, typically performing well on tabular data."
+}

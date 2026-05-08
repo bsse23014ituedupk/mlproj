@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data (large files)
+data/raw/*.csv
+data/processed/*.csv
+data/splits/*.csv
+
+# Models
+models/*.joblib
+models/*.pkl
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (generated)
+reports/*.png
+reports/*.html
+
+# Jupyter
+.ipynb_checkpoints/
