@@ -47,7 +47,7 @@ python -m src.models.train
 # Set PYTHONPATH to current directory and run uvicorn as a module
 $env:PYTHONPATH="."; python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
 ```
-
+ 
 Access the **Interactive API Docs (Swagger UI)** at:
 👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
