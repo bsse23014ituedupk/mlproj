@@ -27,6 +27,25 @@ from src.utils.logger import get_logger
 logger = get_logger(__name__)
 
 
+def _check_no_target_leakage(X: np.ndarray, n_cols: int, context: str = "") -> None:
+    """Guard: ensure feature matrix has the expected column count.
+
+    Args:
+        X: Feature matrix to check.
+        n_cols: Expected number of columns (9 raw or 12 with engineered).
+        context: Description for log/error messages.
+
+    Raises:
+        ValueError: If column count does not match (possible Potability leakage).
+    """
+    if X.shape[1] != n_cols:
+        raise ValueError(
+            f"[{context}] Expected {n_cols} feature columns, got {X.shape[1]}. "
+            f"Check that '{TARGET_COLUMN}' column is not included in X."
+        )
+    logger.debug(f"[{context}] Shape check passed: {X.shape}")
+
+
 class IQROutlierClipper(BaseEstimator, TransformerMixin):
     """Custom transformer that clips outliers at 1.5×IQR boundaries.
 
@@ -108,7 +127,11 @@ def build_preprocessing_pipeline() -> Pipeline:
         ("scaler", RobustScaler()),
     ])
 
-    logger.info("Built preprocessing pipeline: imputer → clipper → scaler")
+    logger.info(
+        "Built preprocessing pipeline: "
+        "IterativeImputer(max_iter=20) -> IQROutlierClipper(factor=%.1f) -> RobustScaler",
+        IQR_CLIP_FACTOR,
+    )
     return pipeline
 
 
@@ -125,8 +148,27 @@ def split_data(
     """
     # Use all columns except the target — preserves engineered features
     feature_cols = [c for c in df.columns if c != TARGET_COLUMN]
+
+    # Safety guard: confirm Potability is excluded
+    if TARGET_COLUMN in feature_cols:
+        raise ValueError(
+            f"DATA LEAKAGE PREVENTED: '{TARGET_COLUMN}' is in feature columns. "
+            "The target column must be excluded from X before preprocessing."
+        )
+    logger.info(
+        f"split_data — dropping '{TARGET_COLUMN}' from features. "
+        f"Using {len(feature_cols)} feature columns."
+    )
+
     X = df[feature_cols]
     y = df[TARGET_COLUMN]
+
+    logger.info(
+        f"Pre-split null counts: "
+        f"ph={int(df['ph'].isnull().sum())}, "
+        f"Sulfate={int(df['Sulfate'].isnull().sum())}, "
+        f"Trihalomethanes={int(df['Trihalomethanes'].isnull().sum())}"
+    )
 
     # First split: separate test set (20%)
     X_temp, X_test, y_temp, y_test = train_test_split(

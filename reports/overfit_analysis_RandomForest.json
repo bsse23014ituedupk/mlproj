@@ -1,0 +1,16 @@
+{
+  "train_auc": 0.9857,
+  "val_auc": 0.7214,
+  "test_auc": 0.6646,
+  "cv_auc": 0.6835,
+  "train_test_gap": 0.3211,
+  "cv_test_gap": 0.0188,
+  "verdict_train_test": "\u26a0\ufe0f  OVERFITTING",
+  "verdict_cv_test": "\u2705 GENERALISING",
+  "recommendations": [
+    "Increase min_samples_leaf (>= 5) to reduce tree depth.",
+    "Lower max_depth (try 8\u201312) to prevent memorisation.",
+    "Increase min_samples_split to require more evidence per split.",
+    "Use max_features='sqrt' to decorrelate trees."
+  ]
+}

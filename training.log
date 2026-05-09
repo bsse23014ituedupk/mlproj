@@ -1,0 +1,694 @@
+[2026-05-09 12:03:49] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:03:49] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:03:49] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:03:49] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:03:49] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:49] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:03:49] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:03:49] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:03:49] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:49] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:49] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:50] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:50] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:50] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:50] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:50] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:50] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:50] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:03:50] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:03:50] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:03:50] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:03:50] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:50] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:03:50] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:03:50] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:03:50] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:03:51] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:03:51] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:03:51] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:51] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:52] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:03:52] INFO     — src.data.preprocessing — SMOTE applied — original: 100 samples, resampled: 130 samples
+[2026-05-09 12:04:54] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:04:54] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:04:54] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:04:54] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:04:54] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:54] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:04:54] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:04:54] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:04:54] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:54] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:55] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:55] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:55] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:55] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:55] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:55] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:55] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:55] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:04:55] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:04:55] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:04:55] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:04:55] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:55] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:04:55] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:04:55] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:04:55] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:04:57] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:04:57] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:04:57] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:04:57] INFO     — src.data.preprocessing — SMOTE applied — original: 100 samples, resampled: 130 samples
+[2026-05-09 12:05:26] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:05:26] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:05:26] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:05:26] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:05:26] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:26] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:26] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:26] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:26] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:26] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:26] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:26] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:05:27] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:05:27] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:05:27] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:05:27] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:05:27] INFO     — src.data.preprocessing — SMOTE applied — original: 100 samples, resampled: 130 samples
+[2026-05-09 12:07:25] INFO     — __main__ — ============================================================
+[2026-05-09 12:07:25] INFO     — __main__ — STEP 1: Data Ingestion
+[2026-05-09 12:07:25] INFO     — src.data.ingestion — Dataset already exists, skipping download
+[2026-05-09 12:07:25] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:07:25] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:07:25] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:07:25] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:07:25] INFO     — __main__ — ============================================================
+[2026-05-09 12:07:25] INFO     — __main__ — STEP 2: Feature Engineering
+[2026-05-09 12:07:25] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:07:25] INFO     — __main__ — ============================================================
+[2026-05-09 12:07:25] INFO     — __main__ — STEP 3: Splitting Data
+[2026-05-09 12:07:25] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:07:25] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:07:25] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:07:25] INFO     — src.data.validation — Stratification check 'train': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — Stratification check 'val': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — Stratification check 'test': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:07:25] INFO     — __main__ — Train: 2292 rows | Val: 328 rows | Test: 656 rows
+[2026-05-09 12:07:25] INFO     — __main__ — Train class balance:
+{0: 1398, 1: 894}
+[2026-05-09 12:07:25] INFO     — __main__ — Features used (12): ['ph', 'Hardness', 'Solids', 'Chloramines', 'Sulfate', 'Conductivity', 'Organic_carbon', 'Trihalomethanes', 'Turbidity', 'ph_hardness_ratio', 'tthm_chloramine_interaction', 'organic_solids_ratio']
+[2026-05-09 12:07:25] INFO     — __main__ — Target column 'Potability' correctly excluded from X
+[2026-05-09 12:07:25] INFO     — __main__ — Raw null counts in X_train: 1436 | X_val: 231 | X_test: 420
+[2026-05-09 12:07:25] INFO     — __main__ — ============================================================
+[2026-05-09 12:07:25] INFO     — __main__ — STEP 4: Preprocessing
+[2026-05-09 12:07:25] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) → IQROutlierClipper(factor=1.5) → RobustScaler
+[2026-05-09 12:07:25] INFO     — __main__ — Fitting preprocessing pipeline on TRAIN set only (no leakage)...
+[2026-05-09 12:07:25] INFO     — __main__ — Post-imputation nulls in X_train: 0 (must be 0)
+[2026-05-09 12:07:25] INFO     — __main__ — Preprocessing done — train shape: (2292, 12), val shape: (328, 12), test shape: (656, 12)
+[2026-05-09 12:07:25] INFO     — __main__ — Scaler params: center=[7.076, 196.884, 20734.139]...
+[2026-05-09 12:07:25] INFO     — src.data.validation — [train] No infinites — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — [train] Full array validation — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — [val] No infinites — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — [val] Full array validation — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — [test] No infinites — PASSED
+[2026-05-09 12:07:25] INFO     — src.data.validation — [test] Full array validation — PASSED
+[2026-05-09 12:07:25] INFO     — __main__ — ============================================================
+[2026-05-09 12:07:25] INFO     — __main__ — STEP 5a: Baseline DummyClassifier
+[2026-05-09 12:07:25] INFO     — src.models.baseline — ============================================================
+[2026-05-09 12:07:25] INFO     — src.models.baseline — BASELINE: Training DummyClassifier (most_frequent strategy)
+[2026-05-09 12:07:25] INFO     — src.models.baseline — Baseline — AUC=0.5000, F1=0.3788, MCC=0.0000
+[2026-05-09 12:07:45] INFO     — src.models.baseline — Baseline run logged to MLflow
+[2026-05-09 12:07:45] INFO     — __main__ — Baseline AUC floor: 0.5000 — RF must exceed this
+[2026-05-09 12:07:45] INFO     — __main__ — ============================================================
+[2026-05-09 12:07:45] INFO     — __main__ — STEP 5b: Training Random Forest Model
+[2026-05-09 12:07:45] INFO     — __main__ — Training: RandomForest
+[2026-05-09 12:07:45] INFO     — src.models.optimize — Hyperparameter grid has 17 total values across 6 hyperparameters — total combinations to evaluate: 360
+[2026-05-09 12:07:45] INFO     — src.models.optimize — Starting GridSearchCV for RandomForest (5-fold, scoring=f1_macro)
+[2026-05-09 12:12:41] INFO     — __main__ — ============================================================
+[2026-05-09 12:12:41] INFO     — __main__ — STEP 1: Data Ingestion
+[2026-05-09 12:12:42] INFO     — src.data.ingestion — Dataset already exists, skipping download
+[2026-05-09 12:12:42] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:12:43] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:12:43] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:12:44] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:12:44] INFO     — __main__ — ============================================================
+[2026-05-09 12:12:44] INFO     — __main__ — STEP 2: Feature Engineering
+[2026-05-09 12:12:44] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:12:44] INFO     — __main__ — ============================================================
+[2026-05-09 12:12:44] INFO     — __main__ — STEP 3: Splitting Data
+[2026-05-09 12:12:45] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:12:45] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:12:46] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:12:46] INFO     — src.data.validation — Stratification check 'train': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:12:46] INFO     — src.data.validation — Stratification check 'val': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:12:46] INFO     — src.data.validation — Stratification check 'test': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:12:46] INFO     — __main__ — Train: 2292 rows | Val: 328 rows | Test: 656 rows
+[2026-05-09 12:12:46] INFO     — __main__ — Train class balance:
+{0: 1398, 1: 894}
+[2026-05-09 12:12:46] INFO     — __main__ — Features used (12): ['ph', 'Hardness', 'Solids', 'Chloramines', 'Sulfate', 'Conductivity', 'Organic_carbon', 'Trihalomethanes', 'Turbidity', 'ph_hardness_ratio', 'tthm_chloramine_interaction', 'organic_solids_ratio']
+[2026-05-09 12:12:46] INFO     — __main__ — Target column 'Potability' correctly excluded from X
+[2026-05-09 12:12:46] INFO     — __main__ — Raw null counts in X_train: 1436 | X_val: 231 | X_test: 420
+[2026-05-09 12:12:46] INFO     — __main__ — ============================================================
+[2026-05-09 12:12:46] INFO     — __main__ — STEP 4: Preprocessing
+[2026-05-09 12:12:46] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) -> IQROutlierClipper(factor=1.5) -> RobustScaler
+[2026-05-09 12:12:46] INFO     — __main__ — Fitting preprocessing pipeline on TRAIN set only (no leakage)...
+[2026-05-09 12:12:47] INFO     — __main__ — Post-imputation nulls in X_train: 0 (must be 0)
+[2026-05-09 12:12:47] INFO     — __main__ — Preprocessing done — train shape: (2292, 12), val shape: (328, 12), test shape: (656, 12)
+[2026-05-09 12:12:47] INFO     — __main__ — Scaler params: center=[7.076, 196.884, 20734.139]...
+[2026-05-09 12:12:47] INFO     — src.data.validation — [train] No infinites — PASSED
+[2026-05-09 12:12:47] INFO     — src.data.validation — [train] Full array validation — PASSED
+[2026-05-09 12:12:47] INFO     — src.data.validation — [val] No infinites — PASSED
+[2026-05-09 12:12:47] INFO     — src.data.validation — [val] Full array validation — PASSED
+[2026-05-09 12:12:47] INFO     — src.data.validation — [test] No infinites — PASSED
+[2026-05-09 12:12:47] INFO     — src.data.validation — [test] Full array validation — PASSED
+[2026-05-09 12:12:47] INFO     — __main__ — ============================================================
+[2026-05-09 12:12:47] INFO     — __main__ — STEP 5a: Baseline DummyClassifier
+[2026-05-09 12:12:47] INFO     — src.models.baseline — ============================================================
+[2026-05-09 12:12:47] INFO     — src.models.baseline — BASELINE: Training DummyClassifier (most_frequent strategy)
+[2026-05-09 12:12:47] INFO     — src.models.baseline — Baseline — AUC=0.5000, F1=0.3788, MCC=0.0000
+[2026-05-09 12:16:23] INFO     — src.models.baseline — Baseline run logged to MLflow
+[2026-05-09 12:16:23] INFO     — __main__ — Baseline AUC floor: 0.5000 — RF must exceed this
+[2026-05-09 12:16:23] INFO     — __main__ — ============================================================
+[2026-05-09 12:16:23] INFO     — __main__ — STEP 5b: Training Random Forest Model
+[2026-05-09 12:16:23] INFO     — __main__ — Training: RandomForest
+[2026-05-09 12:16:23] INFO     — src.models.optimize — Hyperparameter grid has 17 total values across 6 hyperparameters — total combinations to evaluate: 360
+[2026-05-09 12:16:23] INFO     — src.models.optimize — Starting GridSearchCV for RandomForest (5-fold, scoring=f1_macro)
+[2026-05-09 12:48:35] INFO     — __main__ — ============================================================
+[2026-05-09 12:48:35] INFO     — __main__ — STEP 1: Data Ingestion
+[2026-05-09 12:48:35] INFO     — src.data.ingestion — Dataset already exists, skipping download
+[2026-05-09 12:48:35] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 12:48:35] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 12:48:35] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 12:48:35] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 12:48:35] INFO     — __main__ — ============================================================
+[2026-05-09 12:48:35] INFO     — __main__ — STEP 2: Feature Engineering
+[2026-05-09 12:48:35] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 12:48:35] INFO     — __main__ — ============================================================
+[2026-05-09 12:48:35] INFO     — __main__ — STEP 3: Splitting Data
+[2026-05-09 12:48:35] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 12:48:35] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 12:48:35] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 12:48:35] INFO     — src.data.validation — Stratification check 'train': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — Stratification check 'val': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — Stratification check 'test': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 12:48:35] INFO     — __main__ — Train: 2292 rows | Val: 328 rows | Test: 656 rows
+[2026-05-09 12:48:35] INFO     — __main__ — Train class balance:
+{0: 1398, 1: 894}
+[2026-05-09 12:48:35] INFO     — __main__ — Features used (12): ['ph', 'Hardness', 'Solids', 'Chloramines', 'Sulfate', 'Conductivity', 'Organic_carbon', 'Trihalomethanes', 'Turbidity', 'ph_hardness_ratio', 'tthm_chloramine_interaction', 'organic_solids_ratio']
+[2026-05-09 12:48:35] INFO     — __main__ — Target column 'Potability' correctly excluded from X
+[2026-05-09 12:48:35] INFO     — __main__ — Raw null counts in X_train: 1436 | X_val: 231 | X_test: 420
+[2026-05-09 12:48:35] INFO     — __main__ — ============================================================
+[2026-05-09 12:48:35] INFO     — __main__ — STEP 4: Preprocessing
+[2026-05-09 12:48:35] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) -> IQROutlierClipper(factor=1.5) -> RobustScaler
+[2026-05-09 12:48:35] INFO     — __main__ — Fitting preprocessing pipeline on TRAIN set only (no leakage)...
+[2026-05-09 12:48:35] INFO     — __main__ — Post-imputation nulls in X_train: 0 (must be 0)
+[2026-05-09 12:48:35] INFO     — __main__ — Preprocessing done — train shape: (2292, 12), val shape: (328, 12), test shape: (656, 12)
+[2026-05-09 12:48:35] INFO     — __main__ — Scaler params: center=[7.076, 196.884, 20734.139]...
+[2026-05-09 12:48:35] INFO     — src.data.validation — [train] No infinites — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — [train] Full array validation — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — [val] No infinites — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — [val] Full array validation — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — [test] No infinites — PASSED
+[2026-05-09 12:48:35] INFO     — src.data.validation — [test] Full array validation — PASSED
+[2026-05-09 12:48:35] INFO     — __main__ — ============================================================
+[2026-05-09 12:48:35] INFO     — __main__ — STEP 5a: Baseline DummyClassifier
+[2026-05-09 12:48:35] INFO     — src.models.baseline — ============================================================
+[2026-05-09 12:48:35] INFO     — src.models.baseline — BASELINE: Training DummyClassifier (most_frequent strategy)
+[2026-05-09 12:48:35] INFO     — src.models.baseline — Baseline — AUC=0.5000, F1=0.3788, MCC=0.0000
+[2026-05-09 12:48:50] INFO     — src.models.baseline — Baseline run logged to MLflow
+[2026-05-09 12:48:50] INFO     — __main__ — Baseline AUC floor: 0.5000 — RF must exceed this
+[2026-05-09 12:48:50] INFO     — __main__ — ============================================================
+[2026-05-09 12:48:50] INFO     — __main__ — STEP 5b: Training Random Forest Model
+[2026-05-09 12:48:50] INFO     — __main__ — Training: RandomForest
+[2026-05-09 12:48:50] INFO     — src.models.optimize — Hyperparameter grid has 17 total values across 6 hyperparameters — total combinations to evaluate: 360
+[2026-05-09 12:48:50] INFO     — src.models.optimize — Starting GridSearchCV for RandomForest (5-fold, scoring=f1_macro)
+[2026-05-09 13:16:43] INFO     — src.models.optimize — RandomForest — Best CV f1_macro: 0.6350 | Candidates evaluated: 360
+[2026-05-09 13:16:43] INFO     — src.models.optimize — RandomForest — Best params: {'model__class_weight': 'balanced', 'model__max_depth': 20, 'model__max_features': 0.5, 'model__min_samples_leaf': 2, 'model__min_samples_split': 5, 'model__n_estimators': 200}
+[2026-05-09 13:16:43] INFO     — src.models.optimize — RandomForest — Mean train score (best params): 0.9986
+[2026-05-09 13:16:44] INFO     — src.models.evaluate — 
+RandomForest — Classification Report:
+              precision    recall  f1-score   support
+
+      Unsafe       0.69      0.72      0.71       400
+        Safe       0.53      0.48      0.51       256
+
+    accuracy                           0.63       656
+   macro avg       0.61      0.60      0.61       656
+weighted avg       0.63      0.63      0.63       656
+
+[2026-05-09 13:16:44] INFO     — src.models.evaluate — RandomForest Metrics: AUC=0.6538, F1=0.6059, MCC=0.2132
+[2026-05-09 13:16:47] INFO     — src.utils.plotting — Saved plot: C:\Users\User\Desktop\mlpr\reports\confusion_matrix.png
+[2026-05-09 13:16:47] INFO     — src.utils.plotting — Saved plot: C:\Users\User\Desktop\mlpr\reports\roc_curve.png
+[2026-05-09 13:16:48] INFO     — src.utils.plotting — Saved plot: C:\Users\User\Desktop\mlpr\reports\precision_recall_curve.png
+[2026-05-09 13:16:49] INFO     — src.utils.plotting — Saved plot: C:\Users\User\Desktop\mlpr\reports\calibration_curve.png
+[2026-05-09 13:17:15] INFO     — src.utils.plotting — Saved plot: C:\Users\User\Desktop\mlpr\reports\learning_curve.png
+[2026-05-09 13:17:20] INFO     — src.models.evaluate — Computing SHAP values for RandomForest...
+[2026-05-09 13:17:33] INFO     — src.models.evaluate — SHAP plots saved
+[2026-05-09 13:17:33] WARNING  — src.models.evaluate — SHAP computation error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+[2026-05-09 13:17:34] INFO     — src.data.ingestion — Dataset metadata logged to MLflow
+[2026-05-09 13:17:51] INFO     — __main__ — ============================================================
+[2026-05-09 13:17:51] INFO     — __main__ — STEP 7: Saving Model
+[2026-05-09 13:17:52] INFO     — __main__ — Model: RandomForest saved to C:\Users\User\Desktop\mlpr\models\best_model.joblib
+[2026-05-09 13:46:44] INFO     — __main__ — ============================================================
+[2026-05-09 13:46:44] INFO     — __main__ — STEP 1: Data Ingestion
+[2026-05-09 13:46:44] INFO     — src.data.ingestion — Dataset already exists, skipping download
+[2026-05-09 13:46:44] INFO     — src.data.ingestion — Loading raw dataset from C:\Users\User\Desktop\mlpr\data\raw\water_potability.csv
+[2026-05-09 13:46:44] INFO     — src.data.ingestion — Dataset shape: (3276, 10)
+[2026-05-09 13:46:44] INFO     — src.data.ingestion — Null counts:
+ph                 491
+Hardness             0
+Solids               0
+Chloramines          0
+Sulfate            781
+Conductivity         0
+Organic_carbon       0
+Trihalomethanes    162
+Turbidity            0
+Potability           0
+dtype: int64
+[2026-05-09 13:46:44] INFO     — src.data.ingestion — Class balance:
+Potability
+0    1998
+1    1278
+Name: count, dtype: int64
+[2026-05-09 13:46:44] INFO     — __main__ — Raw dataset: 3276 rows × 10 cols
+[2026-05-09 13:46:44] INFO     — __main__ — Class distribution:
+{0: 1998, 1: 1278}
+[2026-05-09 13:46:44] INFO     — __main__ — Null counts:
+  ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 13:46:44] INFO     — __main__ — ============================================================
+[2026-05-09 13:46:44] INFO     — __main__ — STEP 2: Feature Engineering
+[2026-05-09 13:46:44] INFO     — src.features.feature_engineering — Created 3 engineered features
+[2026-05-09 13:46:44] INFO     — __main__ — Feature set (12): ['ph', 'Hardness', 'Solids', 'Chloramines', 'Sulfate', 'Conductivity', 'Organic_carbon', 'Trihalomethanes', 'Turbidity', 'ph_hardness_ratio', 'tthm_chloramine_interaction', 'organic_solids_ratio']
+[2026-05-09 13:46:44] INFO     — __main__ — ============================================================
+[2026-05-09 13:46:44] INFO     — __main__ — STEP 3: Stratified Data Splitting (70/10/20)
+[2026-05-09 13:46:44] INFO     — src.data.preprocessing — split_data — dropping 'Potability' from features. Using 12 feature columns.
+[2026-05-09 13:46:44] INFO     — src.data.preprocessing — Pre-split null counts: ph=491, Sulfate=781, Trihalomethanes=162
+[2026-05-09 13:46:44] INFO     — src.data.preprocessing — Split sizes — Train: 2292, Val: 328, Test: 656
+[2026-05-09 13:46:44] INFO     — src.data.validation — Stratification check 'train': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — Stratification check 'val': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — Stratification check 'test': ratio=0.390 (overall=0.390) — PASSED
+[2026-05-09 13:46:44] INFO     — __main__ — Split sizes — Train: 2292 | Val: 328 | Test: 656
+[2026-05-09 13:46:44] INFO     — __main__ — Train class balance: {0: 1398, 1: 894}
+[2026-05-09 13:46:44] INFO     — __main__ — ============================================================
+[2026-05-09 13:46:44] INFO     — __main__ — STEP 4: Preprocessing (impute → clip → scale)
+[2026-05-09 13:46:44] INFO     — __main__ —   Fitting pipeline on TRAINING set ONLY.
+[2026-05-09 13:46:44] INFO     — src.data.preprocessing — Built preprocessing pipeline: IterativeImputer(max_iter=20) -> IQROutlierClipper(factor=1.5) -> RobustScaler
+[2026-05-09 13:46:44] INFO     — __main__ — Post-null check — train: 0, val: 0, test: 0 (all must be 0)
+[2026-05-09 13:46:44] INFO     — src.data.validation — [train] No infinites — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — [train] Full array validation — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — [val] No infinites — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — [val] Full array validation — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — [test] No infinites — PASSED
+[2026-05-09 13:46:44] INFO     — src.data.validation — [test] Full array validation — PASSED
+[2026-05-09 13:46:44] INFO     — __main__ — Preprocessor saved.
+[2026-05-09 13:46:44] INFO     — __main__ — ============================================================
+[2026-05-09 13:46:44] INFO     — __main__ — STEP 5a: Baseline DummyClassifier
+[2026-05-09 13:46:44] INFO     — src.models.baseline — ============================================================
+[2026-05-09 13:46:44] INFO     — src.models.baseline — BASELINE: Training DummyClassifier (most_frequent strategy)
+[2026-05-09 13:46:44] INFO     — src.models.baseline — Baseline — AUC=0.5000, F1=0.3788, MCC=0.0000
+[2026-05-09 13:46:57] INFO     — src.models.baseline — Baseline run logged to MLflow
+[2026-05-09 13:46:57] INFO     — __main__ — Baseline AUC floor: 0.5000
+[2026-05-09 13:46:57] INFO     — __main__ — ============================================================
+[2026-05-09 13:46:57] INFO     — __main__ — STEP 5b: K-Means Cluster Analysis
+[2026-05-09 13:46:57] INFO     — src.models.optimize — Running K-Means bonus analysis (k=2)...
+[2026-05-09 13:47:03] INFO     — src.models.optimize — K-Means ARI vs Potability labels: -0.0002 (Low — non-linear boundary needed)
+[2026-05-09 13:47:03] INFO     — __main__ — ============================================================
+[2026-05-09 13:47:03] INFO     — __main__ — STEP 6: Optuna Bayesian Hyperparameter Search
+[2026-05-09 13:47:03] INFO     — src.models.optimize — ============================================================
+[2026-05-09 13:47:03] INFO     — src.models.optimize — Optuna search — RandomForest | 80 trials | scoring=roc_auc | 5-fold StratifiedKFold
+[2026-05-09 13:55:19] INFO     — src.models.optimize — Optuna — Best CV roc_auc: 0.6835 ± 0.0280
+[2026-05-09 13:55:19] INFO     — src.models.optimize — Optuna — Per-fold scores: [0.6723, 0.7055, 0.634, 0.6949, 0.7105]
+[2026-05-09 13:55:19] INFO     — src.models.optimize — Optuna — Best params: {'n_estimators': 250, 'max_depth': 12, 'min_samples_split': 16, 'min_samples_leaf': 2, 'max_features': 0.5, 'class_weight': 'balanced_subsample'}
+[2026-05-09 13:55:19] INFO     — src.models.optimize — Optuna — Trials completed: 80
+[2026-05-09 13:55:21] INFO     — src.models.optimize — Optuna — Parameter importances (higher = more influential): {'min_samples_leaf': np.float64(0.404), 'max_features': np.float64(0.394), 'max_depth': np.float64(0.174), 'n_estimators': np.float64(0.012), 'min_samples_split': np.float64(0.01), 'class_weight': np.float64(0.005)}
+[2026-05-09 13:55:21] INFO     — __main__ — Best CV ROC-AUC: 0.6835 ± 0.0280
+[2026-05-09 13:55:21] INFO     — __main__ — Best params: {'n_estimators': 250, 'max_depth': 12, 'min_samples_split': 16, 'min_samples_leaf': 2, 'max_features': 0.5, 'class_weight': 'balanced_subsample'}
+[2026-05-09 13:55:21] INFO     — __main__ — ============================================================
+[2026-05-09 13:55:21] INFO     — __main__ — STEP 7: Final Model Training on Full Training Set
+[2026-05-09 13:55:21] INFO     — src.models.optimize — Built best pipeline from Optuna params: {'n_estimators': 250, 'max_depth': 12, 'min_samples_split': 16, 'min_samples_leaf': 2, 'max_features': 0.5, 'class_weight': 'balanced_subsample'}
+[2026-05-09 13:55:23] INFO     — __main__ — OOB score (free diagnostic): 0.7057
+[2026-05-09 13:55:23] INFO     — __main__ — ============================================================
+[2026-05-09 13:55:23] INFO     — __main__ — STEP 8: Evaluation (threshold-optimised, calibration-checked)
+[2026-05-09 13:55:24] INFO     — src.models.evaluate — Brier=0.2214 > 0.2 — applying isotonic calibration.
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — Calibration applied — probabilities re-computed.
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — Optimal threshold (val F1-macro=0.6572): 0.44
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — 
+RandomForest — Classification Report (threshold=0.44):
+              precision    recall  f1-score   support
+
+      Unsafe       0.69      0.79      0.74       400
+        Safe       0.57      0.45      0.50       256
+
+    accuracy                           0.65       656
+   macro avg       0.63      0.62      0.62       656
+weighted avg       0.64      0.65      0.64       656
+
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — RandomForest → AUC=0.6646 | F1=0.6181 | MCC=0.2470 | Brier=0.2139
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — 
+============================================================
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — OVERFITTING ANALYSIS — RandomForest
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   Train AUC : 0.9857
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   Val   AUC : 0.7214
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   CV    AUC : 0.6835
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   Test  AUC : 0.6646
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   Train–Test gap : 0.3211  → ⚠️  OVERFITTING
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   CV–Test   gap  : 0.0188  → ✅ GENERALISING
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   💡 Increase min_samples_leaf (>= 5) to reduce tree depth.
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   💡 Lower max_depth (try 8–12) to prevent memorisation.
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   💡 Increase min_samples_split to require more evidence per split.
+[2026-05-09 13:55:37] INFO     — src.models.evaluate —   💡 Use max_features='sqrt' to decorrelate trees.
+[2026-05-09 13:55:37] INFO     — src.models.evaluate — ============================================================
+[2026-05-09 13:56:18] INFO     — src.models.evaluate — SHAP plots saved.
+[2026-05-09 13:56:18] WARNING  — src.models.evaluate — SHAP error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+[2026-05-09 13:56:18] INFO     — __main__ — Improvement over baseline AUC: +0.1646
+[2026-05-09 13:56:18] INFO     — __main__ — ============================================================
+[2026-05-09 13:56:18] INFO     — __main__ — STEP 9: MLflow Logging
+[2026-05-09 13:56:18] INFO     — src.data.ingestion — Dataset metadata logged to MLflow
+[2026-05-09 13:56:34] INFO     — __main__ — ============================================================
+[2026-05-09 13:56:34] INFO     — __main__ — STEP 10: Saving Artefacts
+[2026-05-09 13:56:34] INFO     — __main__ — Model saved → C:\Users\User\Desktop\mlpr\models\best_model.joblib
+[2026-05-09 13:56:34] INFO     — __main__ — Metadata saved → C:\Users\User\Desktop\mlpr\models\model_metadata.json
+[2026-05-09 13:56:34] INFO     — __main__ — 
+============================================================
+[2026-05-09 13:56:34] INFO     — __main__ — FINAL PIPELINE SUMMARY
+[2026-05-09 13:56:34] INFO     — __main__ — ============================================================
+[2026-05-09 13:56:34] INFO     — __main__ —   Model            : RandomForest
+[2026-05-09 13:56:34] INFO     — __main__ —   Baseline AUC     : 0.5000
+[2026-05-09 13:56:34] INFO     — __main__ —   CV ROC-AUC       : 0.6835
+[2026-05-09 13:56:34] INFO     — __main__ —   Train ROC-AUC    : 0.9857
+[2026-05-09 13:56:34] INFO     — __main__ —   Val   ROC-AUC    : 0.7214
+[2026-05-09 13:56:34] INFO     — __main__ —   Test  ROC-AUC    : 0.6646
+[2026-05-09 13:56:34] INFO     — __main__ —   Test  F1-macro   : 0.6181
+[2026-05-09 13:56:34] INFO     — __main__ —   Test  MCC        : 0.2470
+[2026-05-09 13:56:34] INFO     — __main__ —   Test  Brier      : 0.2139
+[2026-05-09 13:56:34] INFO     — __main__ —   Optimal threshold: 0.44
+[2026-05-09 13:56:34] INFO     — __main__ —   Calibrated       : True
+[2026-05-09 13:56:34] INFO     — __main__ —   Overfit verdict  : ⚠️  OVERFITTING
+[2026-05-09 13:56:34] INFO     — __main__ — ============================================================
+[2026-05-09 13:56:34] INFO     — __main__ — Best hyperparameters:
+[2026-05-09 13:56:34] INFO     — __main__ —     n_estimators: 250
+[2026-05-09 13:56:34] INFO     — __main__ —     max_depth: 12
+[2026-05-09 13:56:34] INFO     — __main__ —     min_samples_split: 16
+[2026-05-09 13:56:34] INFO     — __main__ —     min_samples_leaf: 2
+[2026-05-09 13:56:34] INFO     — __main__ —     max_features: 0.5
+[2026-05-09 13:56:34] INFO     — __main__ —     class_weight: balanced_subsample
+[2026-05-09 13:56:34] INFO     — __main__ — ============================================================
+[2026-05-09 13:56:34] INFO     — __main__ — Recommendations:
+[2026-05-09 13:56:34] INFO     — __main__ —   💡 Increase min_samples_leaf (>= 5) to reduce tree depth.
+[2026-05-09 13:56:34] INFO     — __main__ —   💡 Lower max_depth (try 8–12) to prevent memorisation.
+[2026-05-09 13:56:34] INFO     — __main__ —   💡 Increase min_samples_split to require more evidence per split.
+[2026-05-09 13:56:34] INFO     — __main__ —   💡 Use max_features='sqrt' to decorrelate trees.
+[2026-05-09 13:56:34] INFO     — __main__ — ============================================================

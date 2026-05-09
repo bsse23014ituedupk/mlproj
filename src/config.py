@@ -91,23 +91,56 @@ SMOTE_K_NEIGHBORS: int = 5     # Number of nearest neighbours for SMOTE synthesi
 # Model Hyperparameter Search Grids
 # ---------------------------------------------------------------------------
 RANDOM_FOREST_GRID: dict = {
-    "n_estimators": [100, 200, 300],
-    "max_depth": [5, 8, 12, 15],             # Avoid None to prevent overfitting
-    "min_samples_split": [2, 5, 10],
-    "min_samples_leaf": [1, 2, 4],           # Added for better regularisation
-    "max_features": ["sqrt", "log2"],
+    "n_estimators": [200, 300, 500],          # More trees → lower variance
+    "max_depth": [8, 12, 15, 20, None],       # None allows full depth (with min_samples guards)
+    "min_samples_split": [2, 5],              # Tighter set for faster search
+    "min_samples_leaf": [1, 2],              # Lower leaf size → finer decision boundaries
+    "max_features": ["sqrt", "log2", 0.5],  # 0.5 = half features per split
+    "class_weight": ["balanced", "balanced_subsample"],  # Handle class imbalance
 }
 
 # ---------------------------------------------------------------------------
 # Cross-Validation
 # ---------------------------------------------------------------------------
-CV_N_SPLITS: int = 5       # 5-fold stratified cross-validation
-CV_SCORING: str = "f1_macro"  # Balanced metric for imbalanced data
+CV_N_SPLITS: int = 5          # 5-fold Stratified K-Fold cross-validation
+CV_SCORING: str = "roc_auc"   # Primary CV metric — best for ranking safe/unsafe
+CV_N_JOBS: int = -1           # Use all CPU cores
+
+# ---------------------------------------------------------------------------
+# Optuna Bayesian Hyperparameter Optimisation
+# ---------------------------------------------------------------------------
+OPTUNA_N_TRIALS: int = 80     # Trial budget (covers search space thoroughly)
+OPTUNA_TIMEOUT: int = 1800    # Max wall-clock seconds (30 min safety cap)
+OPTUNA_DIRECTION: str = "maximize"  # We maximise CV ROC-AUC
+
+# ---------------------------------------------------------------------------
+# Probability Calibration
+# ---------------------------------------------------------------------------
+# CalibratedClassifierCV with 'isotonic' is used when the test Brier score
+# exceeds 0.20 — a pragmatic threshold indicating poor probability alignment.
+CALIBRATION_METHOD: str = "isotonic"  # 'isotonic' or 'sigmoid'
+CALIBRATION_CV: int = 5               # Internal CV folds for calibration
+
+# ---------------------------------------------------------------------------
+# Threshold Optimisation
+# ---------------------------------------------------------------------------
+# Instead of the default 0.5 decision threshold, we sweep the full probability
+# range and select the cut-point that maximises F1-macro on the VALIDATION set
+# (not the test set — prevents threshold overfitting).
+THRESHOLD_SWEEP_STEPS: int = 101  # 0.00, 0.01, ..., 1.00
+
+# ---------------------------------------------------------------------------
+# Overfitting Analysis
+# ---------------------------------------------------------------------------
+# A train/test ROC-AUC gap above this value triggers an overfitting warning.
+OVERFIT_AUC_GAP_THRESHOLD: float = 0.10
+# A CV/test ROC-AUC gap above this value also flags potential overfit.
+OVERFIT_CV_GAP_THRESHOLD: float = 0.08
 
 # ---------------------------------------------------------------------------
 # MLflow
 # ---------------------------------------------------------------------------
-MLFLOW_TRACKING_URI: str = os.getenv("MLFLOW_TRACKING_URI", "mlruns")
+MLFLOW_TRACKING_URI: str = os.getenv("MLFLOW_TRACKING_URI", f"sqlite:///{PROJECT_ROOT}/mlflow.db")
 MLFLOW_EXPERIMENT_NAME: str = os.getenv("MLFLOW_EXPERIMENT_NAME", "water_potability_v1")
 MLFLOW_MODEL_NAME: str = os.getenv("MLFLOW_MODEL_NAME", "water_potability_classifier")
 
@@ -121,6 +154,7 @@ API_PORT: int = int(os.getenv("API_PORT", "8000"))
 # Logging
 # ---------------------------------------------------------------------------
 LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
+LOG_FILE: str = os.getenv("LOG_FILE", str(PROJECT_ROOT / "training.log"))  # File logging path
 
 
 # ---------------------------------------------------------------------------
